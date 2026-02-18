@@ -36,7 +36,7 @@ export default function App() {
           setResult(scanningResult.data)
         }}
         barcodeScannerSettings={{
-          barcodeTypes: ["qr", "ean13", "code128"],
+          barcodeTypes: ["ean13", "ean8"],
         }}
       />
       <View style={styles.resultContainer}>
